@@ -9,11 +9,29 @@ body{
     color: rgb(255, 255, 255);
 }
 
+img{
+    float: right;
+}
+
 @media screen and (max-width:480px)
 
 { 
     body{
         background-color: crimson;
+} 
+img{
+    float: none;
+    width: 100%;
 }
 
 }
+
+@media screen and (max-width: 250px)
+
+{ 
+    body{
+        background-color: coral
+    };
+
+}
+    
